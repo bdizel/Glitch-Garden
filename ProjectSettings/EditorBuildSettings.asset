@@ -4,4 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: 1192bb4d1cc744c478aad5ebdac2045d
+  - enabled: 1
+    path: Assets/Scenes/Start Menu.unity
+    guid: 7fb2975dcf29a4142a061d5e32644c94
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 5e0a7db0717ce6949974ce8e47f3f0b2
+  - enabled: 1
+    path: Assets/Scenes/Loose Screen.unity
+    guid: 200bf4cc994fad744a9f16bfad17f2ef
+  - enabled: 1
+    path: Assets/Scenes/Win Screen.unity
+    guid: 14c4ccf78295b44a4b81771a29ac16ba
