@@ -38,6 +38,10 @@ public class MusicManager : MonoBehaviour {
 			_audioSource.clip = _levelMusicChangeArray[scene.buildIndex];					//Assign this object's AudioSource the audioclip in the Music array
 			_audioSource.loop = true;														//Make the music loop
 			_audioSource.Play ();															//Play the music
+			_audioSource.volume = PlayerPrefsManager.GetMasterVolume();
 		}
+	}
+	public void ChangeVolume(float volume){
+		_audioSource.volume = volume;
 	}
 }
